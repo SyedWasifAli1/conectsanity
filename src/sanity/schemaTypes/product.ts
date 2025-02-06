@@ -73,8 +73,8 @@
 
 import { defineType,defineField } from "sanity";
 
-export const products = defineType({
-  name: 'products',
+export const product = defineType({
+  name: 'product',
   type: 'document',
   title: 'Product',
   fields: [
